@@ -1,0 +1,103 @@
+.task-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+.nav-bar{
+    box-sizing: border-box;
+    width: 100%;
+    height: 30%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    box-sizing: border-box;
+    height: 30%;
+    width: 50%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    color: whitesmoke;
+    text-align: center;
+}
+.task-add{
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-box{
+    box-sizing: border-box;
+    padding: .5rem;
+    width: 40%;
+    height: 50%;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 1.5%;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.btn{
+    width: 6rem;
+    height: 50%;
+    padding: 1rem;
+    outline: none;
+    margin-left: 1.5rem;
+    border-radius: 5%;
+    border: none;
+    font-size: .8rem;
+    font-weight: 600;
+    background-color: whitesmoke;
+}
+.tasklist{
+    width: 100%;
+}
+.content-area{
+    width: 60%;
+    margin:  auto;
+    margin-top: 3rem;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.task{
+    background-color: grey;
+    width: 80%;
+    height: 4rem;
+    /* border: 1px solid blue; */
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+.text{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    overflow: hidden;
+}
+.remove{
+    width: 20%;
+    padding: auto;
+}
